@@ -6,9 +6,8 @@ export default function Message() {
     return (
         <div className = "messageboard">
            
-           <Userboard />
-          
-          < Messagetab />
+          <Userboard />
+
         </div>
     )
 }

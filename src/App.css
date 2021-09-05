@@ -1,4 +1,11 @@
 
+.app {
+  display: grid;
+  place-items: center;
+  background-color: #dadbd3;
+}
+
+
 
 .homegrid{
   display: flex;
@@ -116,6 +123,14 @@
   margin-top: 10px;
 }
 
+
+
+.profileimg{
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+      border-radius: inherit;
+}
+
 .postinput{
   margin-top: 10px;
 }
@@ -171,23 +186,75 @@
   font-size: small;
 }
 
+
+
+
+
+
+
+
+
+
 .messageboard{
   display: flex;
+  background-color: #ededed;
+  margin-top: 20px;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.3);
 }
 
-.Userboard {
-  place-items: left;
-  width: 30%;
-  height: 1000px;
-  background-color: blue;
+.userboard {
+  flex: 0.35
 }
 
-.mesagetab{
-   place-items: center;
-   width: 70%;
-   height: 1000px;
-   background-color: rgb(255, 2, 209);
-   margin-left: 3%;
+.user__header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;  
+}
+
+.user__search{
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6f6;
+  height: 39px;
+  padding: 10px;
+}
+.user__searchlayout{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+
+}
+.user__searchlayout > input {
+  border: none;
+  margin-left: 10px;
+}
+.user__searchlayout .MuiSvgIcon-root {
+  color: grey;
+  margin-left: 10px;
+}
+
+.user__chats {
+  flex: 1;
+  overflow-y: scroll;
+  height: 77%;
+  margin-top: 10px;
+}
+.sidebarChat .MuiAvatar-root{
+
+    margin-left: 10px;
+  
+}
+
+.sidebarChat__info{
+
+    margin-left: 10px;
+    
 }
 
 

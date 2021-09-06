@@ -7,6 +7,7 @@ export default function Message() {
         <div className = "messageboard">
            
           <Userboard />
+          <Messagetab />
 
         </div>
     )

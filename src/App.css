@@ -198,7 +198,7 @@
 .messageboard{
   display: flex;
   background-color: #ededed;
-  margin-top: 20px;
+  margin-top: 10px;
   height: 90vh;
   width: 90vw;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.3);
@@ -244,7 +244,24 @@
   overflow-y: scroll;
   height: 77%;
   margin-top: 10px;
+  background-color: #ffff;
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
 }
+
+.sidebarChat{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #e9e7e7;
+    cursor: pointer;
+}
+
+
+.sidebarChat:hover {
+
+  background-color: #ebebeb;
+}
+
 .sidebarChat .MuiAvatar-root{
 
     margin-left: 10px;
@@ -254,7 +271,24 @@
 .sidebarChat__info{
 
     margin-left: 10px;
-    
+    margin-top: -25px;
+
+}
+
+.sidebarChat__info > h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+
+}
+
+
+.sidebarChat__info > p {
+    margin-top: -10px;
+    font-size: x-small;
+}
+
+.chat {
+  flex: 0.65;
 }
 
 
@@ -271,6 +305,9 @@
     width: 100%;
   } 
   #nav{
+    display: none;
+  }
+  .userboard {
     display: none;
   }
 }

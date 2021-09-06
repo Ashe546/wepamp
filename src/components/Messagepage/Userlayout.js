@@ -37,7 +37,7 @@ export default function Userlayout() {
            <div className = "user__chats">
                 <div className = "sidebar__chat">
 
-                   <Sidebarchat />
+                   <Sidebarchat addNewChat/>
                    <Sidebarchat />
                    <Sidebarchat />
                    <Sidebarchat />

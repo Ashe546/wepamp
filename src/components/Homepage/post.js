@@ -25,32 +25,32 @@ export default function post() {
                   <div className = "suggestedlayout">
                     <h3>Sugessted</h3>
                     <div className = "sugestedprofile">
-                      <div className= "profile"> <img className= "profileimg" src = "/3.jpg"></img></div>
+                      <div className= "profile"> <img className= "profileimg" alt = "" src = "/3.jpg"></img></div>
                      <div className = "profilename"><p className = "profilep"><b>Elon musk</b></p></div> 
                      <div className = "follow"><Button variant="contained" color="primary"  size="small" >Follow</Button></div>
                     </div>
 
                    <div className = "sugestedprofile">
-                      <div className= "profile"><img className= "profileimg" src = "/2.jfif"></img></div>
+                      <div className= "profile"><img className= "profileimg" alt = "" src = "/2.jfif"></img></div>
                      <div className = "profilename"><p className = "profilep" ><b>Elon musk</b></p></div> 
                      <div className = "follow"><Button variant="contained" color="primary" size="small" >Follow</Button></div>
                     </div>
 
                    <div className = "sugestedprofile">
-                    <div className= "profile"><img className= "profileimg" src = "/2.jfif"></img></div>
+                    <div className= "profile"><img className= "profileimg" alt = "" src = "/2.jfif"></img></div>
                      <div className = "profilename"><p className = "profilep" ><b>Elon musk</b></p></div> 
                      <div className = "follow"><Button variant="contained" color="primary" size="small" >Follow</Button></div>
                     </div>
 
 
                     <div className = "sugestedprofile">
-                    <div className= "profile"><img className= "profileimg" src = "/2.jfif"></img></div>
+                    <div className= "profile"><img className= "profileimg" alt = "" src = "/2.jfif"></img></div>
                      <div className = "profilename"><p className = "profilep" ><b>Elon musk</b></p></div> 
                      <div className = "follow"><Button variant="contained" color="primary" size="small" >Follow</Button></div>
                     </div>
 
                     <div className = "sugestedprofile">
-                      <div className= "profile"><img className= "profileimg" src = "/2.jfif"></img></div>
+                      <div className= "profile"><img className= "profileimg"  alt = "" src = "/2.jfif"></img></div>
                      <div className = "profilename"><p className = "profilep" ><b>Elon musk</b></p></div> 
                      <div className = "follow"><Button variant="contained" color="primary" size="small" >Follow</Button></div>
                     </div>

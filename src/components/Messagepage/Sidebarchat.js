@@ -10,7 +10,9 @@ export default function Sidebarchat( { addNewChat } ) {
        Math.floor(
            Math.random() * 5000)
 
-     },  [])
+     },  [seed])
+
+     console.log(seed)
 
      const createChat = () => {
          const roomName =prompt("please enter name for chat");
@@ -26,7 +28,7 @@ export default function Sidebarchat( { addNewChat } ) {
         <div className = "sidebarChat">
               
 
-           <Avatar src= "https://avatars.dicebear.com/api/human/1.svg" />
+           <Avatar src= {`https://avatars.dicebear.com/api/human/${seed}.svg`} />
 
            <div className = "sidebarChat__info">
                <h4>Room Name</h4>
@@ -37,7 +39,7 @@ export default function Sidebarchat( { addNewChat } ) {
         </div>
     ): (
         <div onClick={createChat} className = "sidebarChat">
-             <h2>Add new chat</h2>
+             <h4>Add new chat</h4>
         </div>
     )
 }
